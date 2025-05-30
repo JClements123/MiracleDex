@@ -13,6 +13,7 @@ body {
 }
 
 .main-header {
+    /* How do you get the title to fade in? How do you get the contents to fade in as you scroll?*/
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -25,6 +26,7 @@ body {
 }
 
 .sub-header {
+    transition: 5.0s;
     text-align: center;
     background-color: rgba(232, 185, 80, 0.78);
     width: 75%;
@@ -54,7 +56,7 @@ body {
 
 
 .miracle-card {
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     height: 335px;
     background-color: rgba(234, 231, 231, 0.74);
     font-family: Georgia, sans-serif;
