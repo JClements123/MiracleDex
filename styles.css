@@ -1,16 +1,46 @@
 body {
-    background-color: #dab78f;
+    /* ChatGPT was utilized here to learn how to use an image as the background.
+    ChatGPT further helped me when my image was first blurry to add the property "border-attachment: fixed".
+    The code was suggested by ChatGPT. The image was selected by myself.
+     */
+    /* OpenAI. (2025). Set image background CSS. ChatGPT (Version 4o). Retrieved from https://chatgpt.com. */
+    background-image: url('johnathan-kaufman-F8oCe3Uw5gI-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    /* End of section where ChatGPT was utilized for help. */
 }
 
 .main-header {
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+    background-color: rgba(232, 185, 80, 0.84);
+    width: 260px;
+    font-size: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
 }
 
 .sub-header {
     text-align: center;
+    background-color: rgba(232, 185, 80, 0.78);
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-family: "Gill Sans", sans-serif;
+    border-radius: 16px;
+
 }
 
 .card-grid {
+    margin-left: 10px;
+    margin-right: 10px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 20px;
@@ -26,17 +56,31 @@ body {
 .miracle-card {
     margin-bottom: 25px;
     height: 335px;
-    background-color: rgba(251, 251, 251, 0.66);
+    background-color: rgba(234, 231, 231, 0.74);
     font-family: Georgia, sans-serif;
     font-size: 20px;
     border-radius: 10px;
     text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .miracle-card:hover {
     transition: 0.2s;
-    background-color: rgba(225, 215, 204, 0.74);
+    background-color: rgba(225, 215, 204, 0.78);
+    background-color: rgba(200, 191, 182, 0.86);
 }
+
+.card-title {
+    margin-bottom: 0;
+}
+
+.card-location, .card-year, .card-summary, .card-button {
+    margin-top: 17px;
+    margin-bottom: 0;
+}
+
+
 
 .card-button {
     width: 100px;
