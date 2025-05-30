@@ -58,6 +58,6 @@ async function showMiracles() {
     }
 }
 
-
+console.log('Hello World');
 
 showMiracles();
