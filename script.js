@@ -51,6 +51,14 @@ async function showMiracles() {
         for (let i = 1; i <= miracles.length; i++) {
             let cardButton = document.getElementById('button' + i);
             cardButton.addEventListener('click', event => {
+                const popup = document.createElement('div');
+                popup.className = 'card-popup';
+                popup.id = 'card-popup' + i;
+                popup.innerHTML = '';
+                // let popup_title = miracles[i-1].title;
+                const article = document.getElementById('article');
+                article.appendChild(popup);
+                popup.appendChild(popup_title);
             })
         }
     } catch(error) {
