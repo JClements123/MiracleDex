@@ -1,6 +1,6 @@
 # ✨ MiracleDex Project Report
 
-**Student Name:**
+**Student Name:** John Clements <br>
 **Course:** CSCI 270 – Web/Mobile App Development
 **Project Title:** MiracleDex
 **Submission Date:**
