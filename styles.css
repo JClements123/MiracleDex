@@ -12,14 +12,14 @@ body {
 
 .card-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
 }
 
+
 .miracle-card {
-    margin-left: 25px;
     margin-bottom: 25px;
-    width: 75%;
-    height: 300px;
+    height: 335px;
     background-color: rgba(251, 251, 251, 0.66);
     font-family: Georgia, sans-serif;
     font-size: 20px;
@@ -29,4 +29,21 @@ body {
 
 .miracle-card:hover {
     background-color: rgba(225, 215, 204, 0.74);
+}
+
+.card-button {
+    width: 100px;
+    height: 45px;
+    border-radius: 8px;
+    border-color: #121111;
+    background-color: floralwhite;
+    border-style: solid;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card-button:hover {
+    cursor: pointer;
+    background-color: #e6e1d9;
+    font-size: 16px;
 }
