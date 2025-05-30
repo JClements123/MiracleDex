@@ -68,9 +68,11 @@ body {
 }
 
 .miracle-card:hover {
-    transition: 0.2s;
+    transition: 0.2s ease-in;
     background-color: rgba(225, 215, 204, 0.78);
     background-color: rgba(200, 191, 182, 0.86);
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .card-title {
@@ -106,4 +108,25 @@ body {
     background-color: lawngreen;
     width: 200px;
     height: 200px;
+}
+
+.load-more {
+    margin-left: 43%;
+    margin-right: 57%;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: lightgray;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.load-more:hover {
+    cursor: pointer;
+    background-color: #e1dcd5;
+    border-color: #c3c2c2;
+    font-size: 19px;
 }
