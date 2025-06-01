@@ -101,27 +101,20 @@ async function showMiracles() {
                 div.appendChild(button);
             }
         })
-        for (let i = 1; i <= miracles.length; i++) {
-            let cardButton = document.getElementById('button' + i);
-            cardButton.addEventListener('click', event => {
-                const popup = document.createElement('div');
-                popup.className = 'card-popup';
-                popup.id = 'card-popup' + i;
-                popup.innerHTML = '';
-                // let popup_title = miracles[i-1].title;
-                const article = document.getElementById('article');
-                article.appendChild(popup);
-                popup.appendChild(popup_title);
-            })
-        }
     } catch(error) {
         console.log('Fetch error:', error);
     }
 }
 
 
+function expand() {
 
+}
+// Idea for creating an expanded view: delete all of the cards by
+// using a for loop; use remove(); when the X button is clicked
+// run showMiracles()
 
-console.log('Hello World');
+// Other idea: take to a new page to only display the popup; use history.back();
+
 
 showMiracles();
