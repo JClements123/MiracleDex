@@ -38,8 +38,8 @@ Take a look around my GitHub repository for all of the source code.
 
 ## Known Issues
 
-At this time, there are not any known issues with my website. I believe that my website design aligns with
-the rubric given for this project.
+At this time, I appear to be struggling with the media query. I will attempt to debug over the next couple
+days before the project is due.
 
 With more time, I would love to continue to develop this site, adding new features like filtering based on the
 type of miracle you are interested in, adding images for each miracle, and continuing to style the website so
