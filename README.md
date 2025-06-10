@@ -39,7 +39,9 @@ Take a look around my GitHub repository for all of the source code.
 ## Known Issues
 
 At this time, I appear to be struggling with the media query. I will attempt to debug over the next couple
-days before the project is due.
+days before the project is due. I am also having some trouble with the mobile layout. When I work with 
+Chrome DevTools, the page looks pretty good on mobile. However, when I go on my phone, the page collapses 
+with a fuzzy background and badly styled buttons.
 
 With more time, I would love to continue to develop this site, adding new features like filtering based on the
 type of miracle you are interested in, adding images for each miracle, and continuing to style the website so

@@ -3,12 +3,11 @@
 **Student Name:** John Clements <br>
 **Course:** CSCI 270 – Web/Mobile App Development <br>
 **Project Title:** MiracleDex <br>
-**Submission Date:** <br>
-**GitHub Repo:** [Paste link here] <br>
-**Live Site (GitHub Pages):** [Paste link here]
+**Submission Date:** 06/11/2025<br>
+**GitHub Repo:** https://github.com/JClements123/MiracleDex<br>
+**Live Site (GitHub Pages):** https://jclements123.github.io/MiracleDex/
 
 ---
-
 ## 🔷 Part 1 — HTML/CSS Layout and Responsive Design
 
 ### ✅ Requirements Addressed
@@ -20,6 +19,8 @@
 
 ### 📸 Screenshots
 > Paste 1–2 screenshots showing your site on desktop and mobile.
+
+<img src='screenshots/layout.png' width='500px' height='auto'></img>
 
 ### 🔍 Code Snippets
 > Include relevant HTML and CSS snippets here (layout structure, responsive styling, etc.).
@@ -58,8 +59,8 @@ What did you learn about asynchronous JavaScript? What debugging techniques did 
 - [ ] `README.md` contains project description, instructions, and screenshots
 
 ### 📎 Links
-- **GitHub Repo:** [Paste link here]
-- **Live GitHub Pages Site:** [Paste link here]
+- **GitHub Repo:** https://github.com/JClements123/MiracleDex
+- **Live GitHub Pages Site:** https://jclements123.github.io/MiracleDex/
 
 ### 🖋️ Reflection
 How did using GitHub affect your development process? What new Git or GitHub skills did you gain?
