@@ -1,7 +1,6 @@
-
-
 body {
     /* ChatGPT was utilized here to learn how to use an image as the background.
+    ChatGPT aided me in my search for free website background images.
     ChatGPT further helped me when my image was first blurry to add the property "border-attachment: fixed".
     The code was suggested by ChatGPT. The image was selected by myself.
      */
@@ -15,12 +14,11 @@ body {
 }
 
 .main-header {
-    /* How do you get the title to fade in? How do you get the contents to fade in as you scroll?*/
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     background-color: rgba(232, 185, 80, 0.83);
-    width: 260px;
+    width: 280px;
     font-size: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -30,7 +28,6 @@ body {
 }
 
 .sub-header {
-    transition: 5.0s;
     text-align: center;
     background-color: rgba(232, 185, 80, 0.78);
     width: 75%;
@@ -55,10 +52,14 @@ body {
 
 @media (max-width: 468px) {
     .card-grid {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sub-header {
+        font-size: 20px;
     }
 }
-
 
 .miracle-card {
     margin-bottom: 5px;
@@ -68,13 +69,10 @@ body {
     font-size: 20px;
     border-radius: 10px;
     text-align: center;
-    padding-left: 42px;
-    padding-right: 42px;
 }
 
 .miracle-card:hover {
     transition: 0.2s ease-in;
-    background-color: rgba(225, 215, 204, 0.78);
     background-color: rgba(200, 191, 182, 0.86);
     margin-top: 2px;
     margin-bottom: 3px;
@@ -112,15 +110,15 @@ body {
     font-size: 16px;
 }
 
-.card-popup {
-    background-color: lawngreen;
-    width: 200px;
-    height: 200px;
-}
-
 .load-more {
-    margin-left: 43%;
-    margin-right: 57%;
+    /* ChatGPT utilized for debugging to let me know to set display to block when my load button wasn't centering
+
+    OpenAI. (2025). Button not centering CSS. ChatGPT (Version 4o). Retrieved from https://chatgpt.com. -->
+     */
+    display: block;
+    /*End of segment with ChatGPT help*/
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     width: 200px;
     height: 50px;
@@ -140,3 +138,81 @@ body {
     border-color: #c3c2c2;
     font-size: 19px;
 }
+
+
+/* ChatGPT utilized for a large part of this section to help me learn the CSS to build a good modal.
+I used many of ChatGPT's suggestions for the CSS, but made my own additions like setting my own background color
+and controlling margins and border radius.
+
+OpenAI. (2025). What is a Modal. ChatGPT (Version 4o). Retrieved from https://chatgpt.com. -->
+ */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 85%;
+    height: 85%;
+    /* Suggested by ChatGPT with my prompting to learn how to scroll if the screen got very minimized in the vertical direction.
+
+    OpenAI. (2025).Modal font size fix. ChatGPT (Version 4o). Retrieved from https://chatgpt.com. -->
+    */
+    overflow-y: auto;
+    /* End of ChatGPT suggestion */
+    background-color: rgba(232, 185, 80, 0.80);
+    /* End of section where ChatGPT helped me format this modal as noted above.*/
+    margin-left: 8%;
+    margin-top: 5%;
+    margin-bottom: 200px;
+    border-radius: 16px;
+}
+
+/* Star syntax recommended by ChatGPT to target all of the modal's children
+
+OpenAI. (2025). Modal font size fix. ChatGPT (Version 4o). Retrieved from https://chatgpt.com. -->
+*/
+.modal * {
+    font-size: 1.5em;
+}
+
+/* End of section where ChatGPT helped as noted above*/
+
+
+.close-modal {
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 75px;
+    height: 50px;
+    border-radius: 8px;
+    border-color: #121111;
+    background-color: floralwhite;
+    border-style: solid;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.close-modal:hover {
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: #e6e1d9;
+    font-size: 16px;
+}
+
+
+/* The overlay CSS was largely provided by ChatGPT because I didn't know how to go about generating a good overlay.
+I helped adjust the background color and I set the z-index based on its guidance.
+
+OpenAI. (2025). Darkening Background Behind Modal. ChatGPT (Version 4o). Retrieved from https://chatgpt.com. -->
+ */
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 0.5;
+}
+/* End of section where ChatGPT helped me with the overlay as noted above -->

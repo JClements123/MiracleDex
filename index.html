@@ -2,6 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- From ChatGPT with this following line; help with media queries. This line was suggested
+     in order to scale my output in DevTools.
+
+     OpenAI. (2025). Media Query Debugging Tips. ChatGPT (Version 4o). Retrieved from https://chatgpt.com. -->
+     -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- End of code generated from ChatGPT as noted above -->
     <title>MiracleDex</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,14 +21,30 @@
 </header>
 <main>
     <article id="article">
+        <!-- ChatGPT helped me to learn about overlay elements. I wanted to learn how to darken the background
+        behind the modal that I brought up. Using a div was suggested to me. ChatGPT also helped with the CSS.
+
+        OpenAI. (2025). Darkening Background Behind Modal. ChatGPT (Version 4o). Retrieved from https://chatgpt.com. -->
+        <div id="overlay"></div>
+        <!-- ChatGPT was utilized to suggest how to format a modal. A div was suggested to me.
+        I went ahead and added my own close button after ChatGPT suggested that one should be included in a modal.
+        ChatGPT was utilized in understanding the basics of modals, and it also helped in generating the CSS for the modal.
+
+        OpenAI. (2025). What is a Modal. ChatGPT (Version 4o). Retrieved from https://chatgpt.com. -->
+        <div class="modal" id="modal">
+            <button class="close-modal" id="close-modal" style="display:inline;">Close</button>
+        </div>
+        <!--End of modal that ChatGPT helped generate -->
         <!-- ChatGPT was utilized to ensure that this citation would be sufficient for a website.
          The quote was selected by myself, and I wrote the description. -->
         <!-- ChatGPT also aided me in suggesting to use the <em> tag around the book title. -->
+        <!-- OpenAI. (2025). Set image background CSS. ChatGPT (Version 4o). Retrieved from https://chatgpt.com. -->
         <h3 class="sub-header">A catalog of God's miraculous work in history. "How monotonously alike
             all the great tyrants and conquerors have been: how gloriously different are the saints."
             -C.S. Lewis,
             <em>Mere Christianity</em>
         </h3>
+        <!-- End of section where ChatGPT assisted me as noted above with the subtitle. -->
         <div class="card-grid" id="card-grid"></div>
         <button class="load-more" id="load-more">Load More Miracles</button>
     </article>
