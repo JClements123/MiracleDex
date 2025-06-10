@@ -51,13 +51,28 @@ body {
 }
 
 
-@media (max-width: 468px) {
+/* ChatGPT helped me debug my media query. The main problem seemed to be that I was trying to target max-width at 468px,
+but that might have been a little small to be testing on the computer. ChatGPT suggested that I use 600px for phones.
+I also learned the .miracle-card * syntax from ChatGPT, as I note elsewhere in this file.
+
+OpenAI. (2025). CSS Media Query Debugging. ChatGPT (Version 4o). Retrieved from https://chatgpt.com. -->
+
+ */
+@media (max-width: 600px) {
     .card-grid {
         display: flex;
         flex-direction: column;
     }
 
-    .sub-header {
+    .miracle-card * {
+        font-size: 19px;
+    }
+
+    .miracle-card .card-title {
+        font-size: 29px;
+    }
+
+    .miracle-card:hover .card-title {
         font-size: 20px;
     }
 }
