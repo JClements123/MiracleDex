@@ -68,7 +68,7 @@ What challenges did you face in designing a responsive layout? What did you lear
 
 Designing a responsive layout had easy aspects and more difficult aspects. It was very easy to implement the 
 use of CSS Grid. There are only a few lines of CSS that you have to write to allow your cards to easily adapt
-to the layout of your website and have everything feel very organize.
+to the layout of your website and have everything feel very organized.
 
 The biggest challenge for me was making sure that my mobile layout would look just as beautiful as the layout
 for the computer. I ran into some challenges with this such as struggling with making sure that my media query
