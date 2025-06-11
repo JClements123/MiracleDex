@@ -79,10 +79,11 @@ body::before {
 
 
 /* ChatGPT helped me debug my media query. The main problem seemed to be that I was trying to target max-width at 468px,
-but that might have been a little small to be testing on the computer. ChatGPT suggested that I use 600px for phones.
+but that might have been a little small to be testing on the computer. ChatGPT suggested that I use 600px for phones;
+I end up using 768, which it also suggested.
 I also learned the .miracle-card * syntax from ChatGPT, as I note elsewhere in this file.
 
-OpenAI. (2025). CSS Media Query Debugging. ChatGPT (Version 4o). Retrieved from https://chatgpt.com. -->
+OpenAI. (2025). CSS Media Query Debugging. ChatGPT (Version 4o). Retrieved from https://chatgpt.com.
 
  */
 @media (max-width: 768px) {
@@ -100,7 +101,7 @@ OpenAI. (2025). CSS Media Query Debugging. ChatGPT (Version 4o). Retrieved from 
     }
 
     .miracle-card:hover .card-title {
-        font-size: 20px;
+        font-size: 30px;
     }
 }
 /* End of section where ChatGPT was utilized as noted above */
@@ -140,7 +141,7 @@ I was struggling because my browser on my phone was styling buttons in a way tha
 ChatGPT told me that this happens because these browsers have a default way of styling these buttons, and I wanted
 to learn how to override these styles to build a great mobile design.
 
-OpenAI. (2025). Button text color issue. ChatGPT (Version 4o). Retrieved from https://chatgpt.com. -->
+OpenAI. (2025). Button text color issue. ChatGPT (Version 4o). Retrieved from https://chatgpt.com.
  */
 button {
     color: inherit; /* or a specific color */
@@ -203,7 +204,7 @@ button {
 I used many of ChatGPT's suggestions for the CSS, but made my own additions like setting my own background color
 and controlling margins and border radius.
 
-OpenAI. (2025). What is a Modal. ChatGPT (Version 4o). Retrieved from https://chatgpt.com. -->
+OpenAI. (2025). What is a Modal. ChatGPT (Version 4o). Retrieved from https://chatgpt.com.
  */
 .modal {
     display: none;
@@ -215,7 +216,7 @@ OpenAI. (2025). What is a Modal. ChatGPT (Version 4o). Retrieved from https://ch
     height: 85%;
     /* Suggested by ChatGPT with my prompting to learn how to scroll if the screen got very minimized in the vertical direction.
 
-    OpenAI. (2025).Modal font size fix. ChatGPT (Version 4o). Retrieved from https://chatgpt.com. -->
+    OpenAI. (2025). Modal font size fix. ChatGPT (Version 4o). Retrieved from https://chatgpt.com.
     */
     overflow-y: auto;
     /* End of ChatGPT suggestion */
@@ -235,7 +236,7 @@ OpenAI. (2025). Modal font size fix. ChatGPT (Version 4o). Retrieved from https:
     font-size: 1.5em;
 }
 
-/* End of section where ChatGPT helped as noted above*/
+/* End of section where ChatGPT helped as noted above */
 
 
 .close-modal {
@@ -262,7 +263,7 @@ OpenAI. (2025). Modal font size fix. ChatGPT (Version 4o). Retrieved from https:
 /* The overlay CSS was largely provided by ChatGPT because I didn't know how to go about generating a good overlay.
 I helped adjust the background color and I set the z-index based on its guidance.
 
-OpenAI. (2025). Darkening Background Behind Modal. ChatGPT (Version 4o). Retrieved from https://chatgpt.com. -->
+OpenAI. (2025). Darkening Background Behind Modal. ChatGPT (Version 4o). Retrieved from https://chatgpt.com.
  */
 #overlay {
     display: none;
