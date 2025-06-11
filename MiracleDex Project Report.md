@@ -7,6 +7,8 @@
 **GitHub Repo:** https://github.com/JClements123/MiracleDex<br>
 **Live Site (GitHub Pages):** https://jclements123.github.io/MiracleDex/
 
+
+Note: I used Google's AI overview to learn how to turn this document into a PDF.
 ---
 ## 🔷 Part 1 — HTML/CSS Layout and Responsive Design
 
