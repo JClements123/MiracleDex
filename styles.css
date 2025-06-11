@@ -13,6 +13,33 @@ body {
     /* End of section where ChatGPT was utilized for help. */
 }
 
+/* This entire section was copied and pasted from ChatGPT. This was used to help debug
+when my mobile image background was very blurry and off-center. ChatGPT recommended this code,
+and I copied it without modification except for the background-size being 250% in the media query.
+I set this value based on testing. See citation for ChatGPT.
+
+OpenAI. (2025). Reduce Mobile Background Blur. ChatGPT (Version 4o). Retrieved from https://chatgpt.com.
+ */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url('johnathan-kaufman-F8oCe3Uw5gI-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    body::before {
+        background-size: 250%; /* Zoomed-out effect */
+    }
+}
+/* End of section where code was copied from ChatGPT. */
+
 .main-header {
     margin-left: auto;
     margin-right: auto;
@@ -58,7 +85,7 @@ I also learned the .miracle-card * syntax from ChatGPT, as I note elsewhere in t
 OpenAI. (2025). CSS Media Query Debugging. ChatGPT (Version 4o). Retrieved from https://chatgpt.com. -->
 
  */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .card-grid {
         display: flex;
         flex-direction: column;
@@ -76,6 +103,7 @@ OpenAI. (2025). CSS Media Query Debugging. ChatGPT (Version 4o). Retrieved from 
         font-size: 20px;
     }
 }
+/* End of section where ChatGPT was utilized as noted above */
 
 .miracle-card {
     margin-bottom: 5px;
