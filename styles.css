@@ -135,6 +135,21 @@ OpenAI. (2025). CSS Media Query Debugging. ChatGPT (Version 4o). Retrieved from 
 }
 
 
+/* Copied and pasted directly from ChatGPT
+I was struggling because my browser on my phone was styling buttons in a way that I didn't want them to be styled.
+ChatGPT told me that this happens because these browsers have a default way of styling these buttons, and I wanted
+to learn how to override these styles to build a great mobile design.
+
+OpenAI. (2025). Button text color issue. ChatGPT (Version 4o). Retrieved from https://chatgpt.com. -->
+ */
+button {
+    color: inherit; /* or a specific color */
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent; /* removes gray highlight on iOS */
+    -webkit-appearance: none; /* prevents iOS default button styling */
+    appearance: none;
+}
+/* End of section that was copied and pasted directly from ChatGPT */
 
 .card-button {
     width: 100px;
@@ -157,7 +172,7 @@ OpenAI. (2025). CSS Media Query Debugging. ChatGPT (Version 4o). Retrieved from 
 .load-more {
     /* ChatGPT utilized for debugging to let me know to set display to block when my load button wasn't centering
 
-    OpenAI. (2025). Button not centering CSS. ChatGPT (Version 4o). Retrieved from https://chatgpt.com. -->
+    OpenAI. (2025). Button not centering CSS. ChatGPT (Version 4o). Retrieved from https://chatgpt.com.
      */
     display: block;
     /*End of segment with ChatGPT help*/
