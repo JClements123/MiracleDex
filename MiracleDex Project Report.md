@@ -132,11 +132,12 @@ The above seven screenshots show the function that I used to display all of the 
 What did you learn about asynchronous JavaScript? What debugging techniques did you use or discover?
 
 I learned that using asynchronous JavaScript is actually very simple. My function that fetches all of the data
-for my entire website is very simple. I call `await fetch()` and `await response.json()` in order to get all
-of the information that I need to generate my miracle cards. The difficult part of the JavaScript was figuring
-out how to update the Document Object Model with all of the information that I was retrieving from the JSON
-file, but the easy part was getting that data. This assignment helped to reinforce what I had already learned
-about the Fetch API and asynchronous JavaScript in the lectures.
+for my entire website is very short. I call `await fetch()` and `await response.json()` in order to get all
+of the information that I need to generate my miracle cards. I learned to keep the asynchronous function separate
+from the function that displays the miracle cards to increase readability of the code. The difficult part of the
+JavaScript was figuring out how to update the Document Object Model with all of the information that I was retrieving
+from the JSON file, but the easy part was getting that data. This assignment helped to reinforce what I had already 
+learned about the Fetch API and asynchronous JavaScript in the lectures.
 
 One of the biggest debugging techniques that I utilized throughout this project was using ChatGPT when I was
 particularly stuck on a problem that I was having. I would often try to solve the problem myself and to
