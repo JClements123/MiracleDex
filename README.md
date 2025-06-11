@@ -38,10 +38,10 @@ Take a look around my GitHub repository for all of the source code.
 
 ## Known Issues
 
-At this time, I appear to be struggling with the media query. I will attempt to debug over the next couple
-days before the project is due. I am also having some trouble with the mobile layout. When I work with 
-Chrome DevTools, the page looks pretty good on mobile. However, when I go on my phone, the page collapses 
-with a fuzzy background and badly styled buttons.
+At this time, there are no major issues that I believe still exist with my project. The mobile layout can sometimes
+have some unexpected behaviors where the background kind of shifts up and down as you scroll, and sometimes the 19th
+card out of the 20 seems to be in the hover state as you can see in the CSS, but these are very minor issues that could
+potentially be completely rooted out in the future even though they pose no significant inconvenience to the user.
 
 With more time, I would love to continue to develop this site, adding new features like filtering based on the
 type of miracle you are interested in, adding images for each miracle, and continuing to style the website so
