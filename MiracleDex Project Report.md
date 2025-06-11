@@ -18,15 +18,52 @@
 - [ ] External CSS file used
 
 ### 📸 Screenshots
-> Paste 1–2 screenshots showing your site on desktop and mobile.
 
-<img src='screenshots/layout.png' width='500px' height='auto'></img>
+<img src='screenshots/desktop-design.png' width='500px' height='auto'></img><br>
+Desktop layout of my MiracleDex website.
+
+
+
+
+
+<img src='screenshots/phone-layout.png' width='500px' height='auto'></img><br>
+Phone layout of my MiracleDex website.
 
 ### 🔍 Code Snippets
 > Include relevant HTML and CSS snippets here (layout structure, responsive styling, etc.).
 
+
+HTML Layout Structure:
+
+<img src='screenshots/html-structure.png' width='500px' height='auto'></img><br>
+This screenshot demonstrates the overall layout of my app based on the HTML that I coded without the help of JavaScript.
+
+<br><br><br>
+
+CSS Responsive Design and Media Queries:
+
+<img src='screenshots/css1.png' width='500px' height='auto'></img><br>
+A screenshot demonstrating my use of Grid in order to generate a responsive design.
+
+<br><br><br>
+
+
+<img src='screenshots/css2.png' width='500px' height='auto'></img><br>
+
+
+
+
+
+<img src='screenshots/css3.png' width='500px' height='auto'></img><br>
+The two screenshots above demonstrate my use of media queries in order to create both a desktop-friendly and 
+mobile-friendly design. See CSS file for ChatGPT usage in media queries.<br><br><br>
+
+
 ### 🖋️ Reflection
 What challenges did you face in designing a responsive layout? What did you learn about structuring HTML/CSS for real-world use?
+
+
+
 
 ---
 
@@ -43,8 +80,30 @@ What challenges did you face in designing a responsive layout? What did you lear
 ### 📸 Screenshots
 > Show your miracle cards and one expanded view or modal.
 
+<img src='screenshots/miracle-cards.png' width='500px' height='auto'></img><br>
+A screenshot showing my miracle cards.<br><br><br>
+
+
+<img src='screenshots/modal.png' width='500px' height='auto'></img><br>
+A screenshot showing the modal for one of my miracle cards.
+
 ### 🔍 Code Snippets
 > Include the function you used to fetch the data, render the cards, and handle interaction.
+
+<img src='screenshots/async.png' width='500px' height='auto'></img><br>
+Asynchronous function for fetching the data.<br><br><br>
+
+
+
+<img src='screenshots/display1.png' width='500px' height='auto'></img><br>
+<img src='screenshots/display2.png' width='500px' height='auto'></img><br>
+<img src='screenshots/display3.png' width='500px' height='auto'></img><br>
+<img src='screenshots/display4.png' width='500px' height='auto'></img><br>
+<img src='screenshots/display5.png' width='500px' height='auto'></img><br>
+<img src='screenshots/display6.png' width='500px' height='auto'></img><br>
+<img src='screenshots/display7.png' width='500px' height='auto'></img><br>
+The above seven screenshots show the function that I used to display all of the miracle cards.<br><br><br>
+
 
 ### 🖋️ Reflection
 What did you learn about asynchronous JavaScript? What debugging techniques did you use or discover?
