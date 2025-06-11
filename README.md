@@ -51,7 +51,7 @@ that it reflects God's beauty.
 ---
 
 
-👍Thank you for taking a look at my website! I hope that it has helped you grow spiritually and fostered a devotion
-to the saints and led you to marvel at God's work throughout history.
+👍Thank you for taking a look at my website! I hope that it has helped you grow spiritually, fostered a devotion
+to the saints, and led you to marvel at God's work throughout history.
 
 ✝️ "And behold I am with you all days, even to the consummation of the world" (Matthew 28:20).
