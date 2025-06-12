@@ -16,7 +16,7 @@ Link to the MiracleDex Website: https://jclements123.github.io/MiracleDex/
 
 The goal of this project is to create an interactive website that documents God's miraculous work in history,
 inspired by the work of soon-to-be St. Carlo Acutis. This project was assigned for CSCI 270 at Ave Maria 
-University under Dr. Trevor Tomesh to work on front-end development skills with HTML, CSS, Javascript, and
+University under Dr. Trevor Tomesh to work on front-end development skills with HTML, CSS, JavaScript, and
 JSON.
 
 
