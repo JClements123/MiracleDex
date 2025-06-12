@@ -142,6 +142,11 @@ ChatGPT told me that this happens because these browsers have a default way of s
 to learn how to override these styles to build a great mobile design.
 
 OpenAI. (2025). Button text color issue. ChatGPT (Version 4o). Retrieved from https://chatgpt.com.
+
+ChatGPT helped me understand the why behind this code.
+
+OpenAI. (2025). HTML CSS JS Help. ChatGPT (Version 4o). Retrieved from https://chatgpt.com.
+
  */
 button {
     color: inherit; /* or a specific color */
