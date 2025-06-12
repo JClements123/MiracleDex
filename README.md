@@ -40,7 +40,7 @@ Take a look around my GitHub repository for all of the source code.
 
 At this time, there are no major issues that I believe still exist with my project. The mobile layout can sometimes
 have some unexpected behaviors where the background kind of shifts up and down as you scroll, and sometimes the 19th
-card out of the 20 seems to be in the hover state as you can see in the CSS, but these are very minor issues that could
+card out of the 20 on the phone seems to be in the hover state as you can see in the CSS, but these are very minor issues that could
 potentially be completely rooted out in the future even though they pose no significant inconvenience to the user.
 
 With more time, I would love to continue to develop this site, adding new features like filtering based on the
