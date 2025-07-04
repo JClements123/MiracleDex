@@ -50,14 +50,14 @@ that it reflects God's beauty.
 
 ## Images of My Website
 
-<img src='screenshots/desktop-design.png' width='500px' height='auto'></img><br>
+<img src='src/screenshots/desktop-design.png' width='500px' height='auto'></img><br>
 Desktop layout of my MiracleDex website.
 
 
 
 
 
-<img src='screenshots/phone-layout.png' width='500px' height='auto'></img><br>
+<img src='src/screenshots/phone-layout.png' width='500px' height='auto'></img><br>
 Phone layout of my MiracleDex website.
 
 ---
